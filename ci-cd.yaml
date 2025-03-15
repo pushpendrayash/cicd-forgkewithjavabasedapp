@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: target/*.jar  # Adjust for Gradle if necessary
+          path: target/*.jar  # Adjust for Gradle if necessary please
 
   deploy:
     - name: Deploy to GKE
